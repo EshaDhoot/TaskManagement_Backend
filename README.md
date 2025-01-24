@@ -31,8 +31,8 @@ Follow these steps to set up and run the project on your local machine:
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/task-management-backend.git
-   cd task-management-backend
+   git clone https://github.com/EshaDhoot/TaskManagement_Backend.git
+   cd TaskManagement_Backend
 
 2. Install dependencies:
    ```bash
