@@ -29,7 +29,7 @@ class TaskService {
                     : []),
                 
                 ...(query.completed !== undefined
-                    ? [{ $match: { completed: query.completed === 'true' } }]
+                    ? [{ $match: { completed: query.completed === 'true'} }]
                     : []),
     
                 ...(query.dueDate
