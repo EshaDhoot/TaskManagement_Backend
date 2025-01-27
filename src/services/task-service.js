@@ -28,7 +28,7 @@ class TaskService {
                     ]
                     : []),
                 
-                ...(query.completed !== undefined
+                ...(query.completed
                     ? [{ $match: { completed: query.completed === 'true'} }]
                     : []),
     
